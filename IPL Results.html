@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="IPL Results.scss">
+    </head>
+    <body>
+        <div class="regform">
+            <h1>Information Form</h1></div>
+        
+          <div class ="main">
+        <form id ="testForm">
+          <div id="name">
+          <h2 class ="name">Name</h2>
+          <div id="name2">
+          <div class="a">
+          <input id ="firstname" type="text" required name ="first_name"><br>
+          <label id="firstlabel"> first name</label>
+          </div>
+          <div class="b">
+          <input id ="middlename" type="text" name ="middle_name"><br>
+          <label id="middlelabel"> middle name</label>
+          </div>
+          <div class="c">
+          <input id ="lastname" type="text" required name ="last_name"><br>
+          <label id="lastlabel"> last name</label>
+          </div>
+          </div>
+          </div>
+
+          <h2 class ="name">Email</h2>
+        <input id ="email" type="text" required name ="email">
+        <h2 class ="name">Date Of Birth</h2>
+        <input id ="dateofbirth" type="date" required name ="dateofbirth">
+        
+        <h2 class ="name">Mobile Number</h2>
+        <input id ="mobile" type="text" name ="mobile" required pattern="[789][0-9]{9}">
+        
+        
+        <h2 class="name2"> Favourite IPL team </h2>
+        <select id ="team" name ="team">
+          <option disabled="disabled" required selected="selected">--choose</option>
+        <option> Chennai Super Kings</option>
+        <option> Delhi capitals</option>
+        <option> Kolakata Knight Riders</option>
+        <option> Mumbai Indians</option>
+        <option> Punjab Kings</option>
+        <option> Rajasthan Royals</option>
+        <option> Royal Challengers Bangalore</option>
+        <option> Sunrisers Hydrabad</option>
+      
+        </select>
+
+      <input id="submit" type="submit">
+  
+      </div>
+      </form>
+      </div>
+      <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase.js"></script>
+      <script  src="IPL Results.js"></script>
+    </body>
+</html>

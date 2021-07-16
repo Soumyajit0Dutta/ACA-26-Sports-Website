@@ -1,0 +1,63 @@
+.timeline
+{
+    background:url("on-dhoni-birthday-csk-investors-worry-over-his-retirement-ipl-fate.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.timeline ul 
+{
+    list-style-type:none;
+    padding: 50px 0;
+  }
+  
+  .timeline ul li 
+  {
+    position: relative;
+    width: 6px;
+    margin: 0 auto;
+    padding-top: 50px;
+    background: #fff;
+  }
+  
+  .timeline ul li div {
+    height:fit-content;
+    width:fit-content;
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    background: #F45B69;
+  }
+  
+  .timeline ul li:nth-child(odd) div {
+    left: 45px;
+    transform: translate3d(200px, 0, 0);
+  }
+  
+  .timeline ul li:nth-child(even) div {
+    left: -469px;
+    transform: translate3d(-200px, 0, 0);
+  }
+  
+  time 
+  {
+    display:block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style:italic;
+    margin-bottom: 8px;
+  }
+  .timeline ul li div 
+{
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li.in-view div 
+{
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}

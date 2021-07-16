@@ -1,0 +1,79 @@
+.biography
+{
+    height:fit-content;
+    border:2px solid black;
+    border-radius:20px;
+    box-shadow: 7px 7px 15px black;
+}
+.biography img
+{
+    height:20vw;
+    width:20vw;
+}
+.biography #pic1
+{
+    float:left;
+    border-radius:20px 0px 0px 0px;
+}
+
+.biography #pic2
+{
+    float:right;
+    border-radius:0px 20px 0px 0px;
+}
+.biography p
+{
+    color:black;
+    font-size:120%;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:1.5;
+    font-weight:lighter;
+    text-align:justify;
+    word-break:keep-all;
+
+}
+.awards
+{
+    width:90vw;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:auto;
+}
+.awards .txt
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    line-height:2;
+    text-align:justify;
+    width:60vw;
+    min-height:30vw;
+    max-height:fit-content;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:130%;
+    font-style:italic;
+    box-shadow: 7px 7px 15px black;
+}
+.awards p
+{
+    width:52vw;
+}
+.awards div1
+{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+.awards .pic
+{
+    height:30vw;
+    width:25vw;
+    box-shadow: 7px 7px 15px black;
+}
+.awards img
+{
+    height:100%;
+    width:100%;
+    object-fit:fill;
+}

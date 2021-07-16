@@ -1,0 +1,106 @@
+*
+{
+    margin:0px;
+}
+.navbar
+{
+    background:url("Ms\ dhoni 2.jpg");
+    height:100vh;
+    background-size: cover;
+    position:relative;
+}
+.list_items{
+    height:70px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color:black;
+    opacity:0.7;
+}
+.list
+{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width:75vw;
+    margin:auto;
+}
+.list_items li
+{
+    list-style: none;
+}
+.list_items a
+{
+    text-decoration: none;
+    color:white;
+    font-size:180%;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+@keyframes background_color_change
+{
+    from {background-color:aqua;border-radius:7px;opacity:7}
+    to {background-color:palevioletred;border-radius:7px;opacity:7}
+}
+.list li:hover{
+    transform:scale(1.2);
+    color:red;
+    animation-name:background_color_change;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+.heading1
+{
+    margin:40px;
+    text-align:center;
+    color:white;
+    font-family:Comic Sans MS;
+    font-size:240%;
+    font-weight:bolder;
+}
+.name
+{
+    position:absolute;
+    bottom:0px;
+    color:red;
+    font-size:500%;
+    font-family:Freestyle Script;
+    font-weight: bolder;
+    letter-spacing:7px;
+}
+.world_cup1
+{
+    height:fit-content;
+    width:85%;
+    border:2px solid black;
+    border-radius:40px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    margin:auto;
+}
+.world_cup1 img
+{
+    height:20vw;
+    width:30vw;
+    border-radius:40px;
+}
+.world_cup1 .txt{
+    width:50vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:130%;
+    color:darkorange;
+    text-align:justify;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    word-break:keep-all;
+}
+.world_cup1 .txt p
+{
+    width:40vw;
+}
+.world_cup1 .pic{
+    display:flex;
+    align-items:center;
+}

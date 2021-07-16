@@ -1,0 +1,175 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-image:url("Indian team.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    font-family:sans-serif;
+    margin-top:40px;
+  }
+  .regform{
+    width:800px;
+    background-color :rgb(0,0,50,6);
+    margin:auto;
+    margin-top: 20px;
+    color:#ffffff;
+    padding:10px 0px 10px 0px;
+    text-align:center;
+    border-radius:15px 15px 0px 0px;
+  
+  }
+  .main{
+    background-color: rgb(0,0,0,0.5);
+    height:84vh;
+    width:800px;
+    margin:auto;
+  }
+  form{
+    padding: 10px;
+  }
+  #name
+  {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #name .name
+  {
+    margin-top:20px;
+  }
+  #name2
+  {
+    height:80px;
+    width:77%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    font-weight:bold;
+    font-style: italic;
+    font-size:16px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  #firstname,#middlename,#lastname
+  {
+     line-height:30px;
+     border-radius:7px;
+  }
+  #email{
+    position: relative;
+    left:200px;
+    top:-37px;
+    border-radius:6px;
+    width: 480px;
+    padding:0 22px;
+    font-size:16px;
+    color: #555;
+    line-height: 40px;
+  }
+  #dateofbirth{
+    position: relative;
+    left:200px;
+    top:-37px;
+    border-radius:6px;
+    width: fit-content;
+    padding:0 22px;
+    font-size:16px;
+    color: #555;
+    line-height: 40px;
+  }
+  
+  #mobile{
+    position: relative;
+    left:200px;
+    top:-37px;
+    border-radius:6px;
+    width: 220;
+    padding:0 22px;
+    font-size:16px;
+    color: #555;
+    line-height: 40px;
+  }
+  #team{
+    position: relative;
+    left:200px;
+    top:-37px;
+    border-radius:6px;
+    width: 217px;
+    padding:0 22px;
+    height:40px;
+    font-size:16px;
+    color: #555;
+    line-height: 40px;
+    outline: none;
+    overflow: hidden;
+  }
+  .name2
+  {
+    width:120px;
+    word-break: keep-all;
+  }
+  .option option{
+    font-size: 20px;
+  }
+  
+  .arrange{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 20px;
+  }
+  #submit {
+    background-color: #3BAF;
+    display: block;
+    margin: 20px 0px 0px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border:2px solid #366473;
+    padding: 14px 110px;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25px;
+  
+  }
+  
+  #submit:hover{
+    background-color: #5390F5;
+  }
+  #navbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+  }
+  #navbar ul {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  #navbar ul li {
+    list-style: none;
+  }
+  
+  #navbar ul li a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.875em;
+    text-decoration: none;
+    padding: 1em;
+    white-space: nowrap;
+    letter-spacing: 1px;
+  }
+  
+  #navbar ul li a:hover {
+    border-bottom: 3px solid #fff;
+  }
